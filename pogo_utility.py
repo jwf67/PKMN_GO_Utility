@@ -45,13 +45,26 @@ def getBaseStats(pokemon_name):
 		for row in file:
 			#print row[0].lower()
 			if(row[0].lower() == pokemon_name.lower()):
-				row[1:] = [int(i) for i in row[1:]]
+				row[1:] = [float(i) for i in row[1:]]
 				print row
-				row[1:] = convertIntsToFloats(row[1:])
 				return row[1:]
 				#for python3, return list(map(int ,row[1:])
 	return "not found";
 
+def getLevel():
+	level = 0
+	validLevel = False
+	while not validLevel:
+		level = input("Please enter your pokemon's level: ")
+		if (isinstance(level, int) or isinstance(level, float)):
+			validLevel = isValidLV(level)
+	return float(level)
+	
+def isValidLV(level):
+	if 1 <= level and level <= 40:
+		return True
+	return False
+	
 def getIVs():
 	ivs = [-1, -1, -1]
 	counter = 0
@@ -68,7 +81,8 @@ def getIVs():
 		ivs[2] = input("Please enter your defense iv: ")
 		if isinstance(ivs[2], int) and validIV(ivs[2]):
 			hasIvs[2] = True
-	ivs = convertIntsToFloats(ivs)
+	ivs = [float(i) for i in ivs]
+	print ivs
 	return ivs
 
 def validIV(iv):
@@ -81,13 +95,21 @@ def calculateIvs(base_stats):
 
 #Given the base stats of the pokemon and its ivs, calculate its cp
 def calculateCP(ivs, base_stats):
-	CP = ((ivs[1] + base_stats[1])*(ivs[2] + base_stats[2])^0.5 * (ivs[0] + base_stats[0])^0.5)/ 10
+	level = getLevel()
+	levelScaler = getLevelConstant(level)
+	CP = ((ivs[1] + base_stats[1])*(ivs[2] + base_stats[2])**0.5 * (ivs[0] + base_stats[0])**0.5) * levelScaler/ 10.0
 	return CP
 	
-def convertIntsToFloats(arr):
-	for a in arr:
-		float(a)
-	return arr
+#https://gaming.stackexchange.com/questions/280491/formula-to-calculate-pokemon-go-cp-and-hp
+def getLevelConstant(level):
+	if 1 <= level and level <= 10:
+		return ( 0.01885225 * level ) - 0.01001625
+	if 10.5 <= level and level <= 20:
+		return ( 0.01783805 * ( level - 10 ) ) + 0.17850625
+	if 20.5 <= level and level <= 30:
+		return ( 0.01784981 * ( level - 20 ) ) + 0.35688675
+	if 30.5 <= level and level <= 40:
+		return ( 0.00891892 * ( level - 30 ) ) + 0.53538485
 
 #Run the functions
 startPogoUtility()
