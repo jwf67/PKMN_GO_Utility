@@ -87,7 +87,7 @@ def getInput(species):
 	id = 0
 	
 	while addAnother:
-		EvolutionIterationList.append(getEntryDetails(id))
+		EvolutionIterationList.append(getEntryDetails(id, species))
 		
 		print "Added the entry. Your current list is the following: "
 		printAllEvolutionIterations(EvolutionIterationList)

@@ -30,17 +30,20 @@ def navigateOptions(args):
 	if args[0] == "cpcalc":
 		cpCalcConfig(args)
 	elif args[0] == "evolxpcalc":
-		evolxpcalc.getInput(species)
+		evolxpcalc.getInput(args[1])
 	else:
-		print "Not found. Bye."
+		print "Not found."
+	doMore()
 	
 #asks the user whether he/she wants to do anything else
 def doMore():
-	response = input("Would you like to do anything else? (1 for yes, anthing else for no): ")
-	if response == 1:
+	response = raw_input("Would you like to do anything else? (yes, anything else for no): ")
+	if response == "yes":
 		helpMenu(0)
-		function = input("Enter your preferred function's id:")
-		species = input("Enter your desired pokemon: ")
+		function = raw_input("Enter your preferred function: ")
+		species = raw_input("Enter your desired pokemon: ")
+		args = [function, species]
+		navigateOptions(args)
 		
 
 def cpCalcConfig(args):
