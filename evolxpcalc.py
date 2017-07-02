@@ -79,7 +79,7 @@ class EvolutionsIteration(object):
 	def printProperties(self):
 		print self.id, self.name, self.num_pokemon, self.num_candies, self.num_candiesforevo, self.num_evolutions
 			
-def getInput():
+def getInput(species):
 	EvolutionIterationList = []
 	
 	addAnother = True
@@ -98,18 +98,17 @@ def getInput():
 		
 		if response == "c":
 			id_to_change = input("What item would you like to change (enter the id): ")
-			EvolutionIterationList[id_to_change] = getEntryDetails(id_to_change)	
+			EvolutionIterationList[id_to_change] = getEntryDetails(id_to_change, species)	
 		elif response != "y":
 			addAnother = False
 			print "Thanks for utilizing this tool."
 			
-def getEntryDetails(id):
-	name = raw_input("Enter pokemon name (for your reference): ")
+def getEntryDetails(id, species):
 	num_pokemon = input("How many of this pokemon do you have?: ")
 	num_candies = input("How many candies do you have for this species?: ")
 	num_candiesforevo = input("How many candies does it take to evolve this pokemon?: ")
 	
-	return EvolutionsIteration(id, name, num_pokemon, num_candies, num_candiesforevo)
+	return EvolutionsIteration(id, species, num_pokemon, num_candies, num_candiesforevo)
 
 def printAllEvolutionIterations(list):
 	print "ID | NAME | COUNT | CANDIES | REQUIRED"
@@ -120,8 +119,7 @@ def initiateTests():
 	for index in range(30, 100):
 		curr_obj = EvolutionsIteration(index - 30, "pidgey", index, 300, 12)
 		print "%d pidgeys yielded evolutions" % (index)
-getInput()
-initiateTests()
+
 	
 		
 

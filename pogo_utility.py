@@ -2,6 +2,7 @@
 
 import sys
 import csv
+import evolxpcalc
 
 
 #Get the command line arguments
@@ -11,23 +12,36 @@ def startPogoUtility():
 	args = sys.argv
 	for arg in args:
 		if arg == "help":
-			helpMenu()
+			helpMenu(1)
 			quit()
 	if len(args) != 3:
 		print "Please give 2 argument when running this script with the name of the utility."
 	else:
 		navigateOptions(args[1:])
 
-def helpMenu():
+def helpMenu(restart):
 	print "Here are the following functions available to you (Argument -> Function): "
-	print "cpcalc <pokemon name> (ex. cpcalc vaporeon) -> Pogo CP Calculator"
-	print "Restart to use properly. Bye."
+	print "cpcalc <pokemon name> (ex. cpcalc vaporeon) -> Pogo CP Calculator (id: 1)"
+	print "evolxpcalc <pokemon name> (ex. ecolxpcalc pidgey) -> Pogo Evolution XP Calculator (id: 2)"
+	if restart == 1:
+		print "Restart to use properly. Bye."
 	
 def navigateOptions(args):
 	if args[0] == "cpcalc":
 		cpCalcConfig(args)
+	elif args[0] == "evolxpcalc":
+		evolxpcalc.getInput(species)
 	else:
 		print "Not found. Bye."
+	
+#asks the user whether he/she wants to do anything else
+def doMore():
+	response = input("Would you like to do anything else? (1 for yes, anthing else for no): ")
+	if response == 1:
+		helpMenu(0)
+		function = input("Enter your preferred function's id:")
+		species = input("Enter your desired pokemon: ")
+		
 
 def cpCalcConfig(args):
 	ivs = getIVs()
