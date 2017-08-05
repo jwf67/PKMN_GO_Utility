@@ -36,7 +36,7 @@ class EvolutionsIteration(object):
 			temp_evolutionsCandiesPokemon = self.evolutionsCandiesPokemon()
 			
 			if remaining_num_pokemon <= remaining_num_candies/self.num_candiesforevo:
-				reward = pokemon
+				reward = remaining_num_pokemon
 			else:
 				reward = remaining_num_candies/self.num_candiesforevo
 				
