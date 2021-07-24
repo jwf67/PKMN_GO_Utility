@@ -1,4 +1,5 @@
 import csv
+import itertools as it
 
 #Given the name of the pokemon, return its base stats from the file
 def getBaseStats(pokemon_name):
@@ -43,7 +44,6 @@ def getIVs():
 		if isinstance(ivs[2], int) and validIV(ivs[2]):
 			hasIvs[2] = True
 	ivs = [float(i) for i in ivs]
-	print ivs
 	return ivs
 
 def validIV(iv):
@@ -58,9 +58,15 @@ def calculateIvs(base_stats):
 def calculateCP(ivs, base_stats):
 	level = getLevel()
 	levelScaler = getLevelConstant(level)
-	CP = ((ivs[1] + base_stats[1])*(ivs[2] + base_stats[2])**0.5 * (ivs[0] + base_stats[0])**0.5) * levelScaler/ 10.0
+	CP = calculateCPHelper(levelScaler, ivs, base_stats)
 	return CP
-	
+
+#formula to calculate the CP
+def calculateCPHelper(levelScaler, ivs, base_stats):
+	CP = ((ivs[1] + base_stats[1])*(ivs[2] + base_stats[2])**0.5 * (ivs[0] + base_stats[0])**0.5) * levelScaler/ 10.0;
+	return CP
+
+
 #https://gaming.stackexchange.com/questions/280491/formula-to-calculate-pokemon-go-cp-and-hp
 def getLevelConstant(level):
 	if 1 <= level and level <= 10:
@@ -76,3 +82,24 @@ def cpCalcConfig(args):
 	ivs = getIVs()
 	base_stats = getBaseStats(args[1])
 	print calculateCP(ivs, base_stats)
+
+def getRaidCPs(name):
+	base_stats = getBaseStats(name)
+	#don't need level; just specific calls for level constant
+	normal = getLevelConstant(20)
+	weather = getLevelConstant(25)
+
+	#go through calculations twice, once with normal and once with weather boost
+	#consider all IP combinations (between 10s and 15s)
+	possible_vals = {'A': [10, 11, 12, 13, 14, 15], 'D': [10, 11, 12, 13, 14, 15], 'S': [10, 11, 12, 13, 14, 15]}
+	all_options = sorted(possible_vals)
+
+	generated_combinations = it.product(*(possible_vals[comb] for comb in all_options))
+	unique_combinations = list(generated_combinations)
+
+	#normal combinations print
+	for c in unique_combinations:
+		print str(c) + ": " + str(calculateCPHelper(normal, c, base_stats))
+	#weather boosted combinations print
+	for c in unique_combinations:
+		print str(c) + ": " + str(calculateCPHelper(weather, c, base_stats))
