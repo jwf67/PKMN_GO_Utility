@@ -1,251 +1,901 @@
-Bulbasaur,90,118,118
-Ivysaur,120,151,151
-Venusaur,160,198,198
-Charmander,78,116,96
-Charmeleon,116,158,129
-Charizard,156,223,176
-Squirtle,88,94,122
-Wartortle,118,126,155
-Blastoise,158,171,210
-Caterpie,90,55,62
-Metapod,100,45,94
-Butterfree,120,167,151
-Weedle,80,63,55
-Kakuna,90,46,86
-Beedrill,130,169,150
-Pidgey,80,85,76
-Pidgeotto,126,117,108
-Pidgeot,166,166,157
-Rattata,60,103,70
-Raticate,110,161,144
-Spearow,80,112,61
-Fearow,130,182,135
-Ekans,70,110,102
-Arbok,120,167,158
-Pikachu,70,112,101
-Raichu,120,193,165
-Sandshrew,100,126,145
-Sandslash,150,182,202
-Nidoran?,110,86,94
-Nidorina,140,117,126
-Nidoqueen,180,180,174
-Nidoran?,92,105,76
-Nidorino,122,137,112
-Nidoking,162,204,157
-Clefairy,140,107,116
-Clefable,190,178,171
-Vulpix,76,96,122
-Ninetales,146,169,204
-Jigglypuff,230,80,44
-Wigglytuff,280,156,93
-Zubat,80,83,76
-Golbat,150,161,153
-Oddish,90,131,116
-Gloom,120,153,139
-Vileplume,150,202,170
-Paras,70,121,99
-Parasect,120,165,146
-Venonat,120,100,102
-Venomoth,140,179,150
-Diglett,20,109,88
-Dugtrio,70,167,147
-Meowth,80,92,81
-Persian,130,150,139
-Psyduck,100,122,96
-Golduck,160,191,163
-Mankey,80,148,87
-Primeape,130,207,144
-Growlithe,110,136,96
-Arcanine,180,227,166
-Poliwag,80,101,82
-Poliwhirl,130,130,130
-Poliwrath,180,182,187
-Abra,50,195,103
-Kadabra,80,232,138
-Alakazam,110,271,194
-Machop,140,137,88
-Machoke,160,177,130
-Machamp,180,234,162
-Bellsprout,100,139,64
-Weepinbell,130,172,95
-Victreebel,160,207,138
-Tentacool,80,97,182
-Tentacruel,160,166,237
-Geodude,80,132,163
-Graveler,110,164,196
-Golem,160,211,229
-Ponyta,100,170,132
-Rapidash,130,207,167
-Slowpoke,180,109,109
-Slowbro,190,177,194
-Magnemite,50,165,128
-Magneton,100,223,182
-Farfetch'd,104,124,118
-Doduo,70,158,88
-Dodrio,120,218,145
-Seel,130,85,128
-Dewgong,180,139,184
-Grimer,160,135,90
-Muk,210,190,184
-Shellder,60,116,168
-Cloyster,100,186,323
-Gastly,60,186,70
-Haunter,90,223,112
-Gengar,120,261,156
-Onix,70,85,288
-Drowzee,120,89,158
-Hypno,170,144,215
-Krabby,60,181,156
-Kingler,110,240,214
-Voltorb,80,109,114
-Electrode,120,173,179
-Exeggcute,120,107,140
-Exeggutor,190,233,158
-Cubone,100,90,165
-Marowak,120,144,200
-Hitmonlee,100,224,211
-Hitmonchan,100,193,212
-Lickitung,180,108,137
-Koffing,80,119,164
-Weezing,130,174,221
-Rhyhorn,160,140,157
-Rhydon,210,222,206
-Chansey,500,60,176
-Tangela,130,183,205
-Kangaskhan,210,181,165
-Horsea,60,129,125
-Seadra,110,187,182
-Goldeen,90,123,115
-Seaking,160,175,154
-Staryu,60,137,112
-Starmie,120,210,184
-Mr. Mime,80,192,233
-Scyther,140,218,170
-Jynx,130,223,182
-Electabuzz,130,198,173
-Magmar,130,206,169
-Pinsir,130,238,197
-Tauros,150,198,197
-Magikarp,40,29,102
-Gyarados,190,237,197
-Lapras,260,165,180
-Ditto,96,91,91
-Eevee,110,104,121
-Vaporeon,260,205,177
-Jolteon,130,232,201
-Flareon,130,246,204
-Porygon,130,153,139
-Omanyte,70,155,174
-Omastar,140,207,227
-Kabuto,60,148,162
-Kabutops,120,220,203
-Aerodactyl,160,221,164
-Snorlax,320,190,190
-Articuno,180,192,249
-Zapdos,180,253,188
-Moltres,180,251,184
-Dratini,82,119,94
-Dragonair,122,163,138
-Dragonite,182,263,201
-Mewtwo,193,300,182
-Mew,200,210,210
-Chikorita,90,92,122
-Bayleef,120,122,155
-Meganium,160,168,202
-Cyndaquil,78,116,96
-Quilava,116,158,129
-Typhlosion,156,223,176
-Totodile,100,117,116
-Croconaw,130,150,151
-Feraligatr,170,205,197
-Sentret,70,79,77
-Furret,170,148,130
-Hoothoot,120,67,101
-Noctowl,200,145,179
-Ledyba,80,72,142
-Ledian,110,107,209
-Spinarak,80,105,73
-Ariados,140,161,128
-Crobat,170,194,178
-Chinchou,150,106,106
-Lanturn,250,146,146
-Pichu,40,77,63
-Cleffa,100,75,91
-Igglybuff,180,69,34
-Togepi,70,67,116
-Togetic,110,139,191
-Natu,80,134,89
-Xatu,130,192,146
-Mareep,110,114,82
-Flaaffy,140,145,112
-Ampharos,180,211,172
-Bellossom,150,169,189
-Marill,140,37,93
-Azumarill,200,112,152
-Sudowoodo,140,167,198
-Politoed,180,174,192
-Hoppip,70,67,101
-Skiploom,110,91,127
-Jumpluff,150,118,197
-Aipom,110,136,112
-Sunkern,60,55,55
-Sunflora,150,185,148
-Yanma,130,154,94
-Wooper,110,75,75
-Quagsire,190,152,152
-Espeon,130,261,194
-Umbreon,190,126,250
-Murkrow,120,175,87
-Slowking,190,177,194
-Misdreavus,120,167,167
-Unown,96,136,91
-Wobbuffet,380,60,106
-Girafarig,140,182,133
-Pineco,100,108,146
-Forretress,150,161,242
-Dunsparce,200,131,131
-Gligar,130,143,204
-Steelix,150,148,333
-Snubbull,120,137,89
-Granbull,180,212,137
-Qwilfish,130,184,148
-Scizor,140,236,191
-Shuckle,40,17,396
-Heracross,160,234,189
-Sneasel,110,189,157
-Teddiursa,120,142,93
-Ursaring,180,236,144
-Slugma,80,118,71
-Magcargo,100,139,209
-Swinub,100,90,74
-Piloswine,200,181,147
-Corsola,110,118,156
-Remoraid,70,127,69
-Octillery,150,197,141
-Delibird,90,128,90
-Mantine,130,148,260
-Skarmory,130,148,260
-Houndour,90,152,93
-Houndoom,150,224,159
-Kingdra,150,194,194
-Phanpy,180,107,107
-Donphan,180,214,214
-Porygon2,170,198,183
-Stantler,146,192,132
-Smeargle,110,40,88
-Tyrogue,70,64,64
-Hitmontop,100,173,214
-Smoochum,90,153,116
-Elekid,90,135,110
-Magby,90,151,108
-Miltank,190,157,211
-Blissey,510,129,229
-Raikou,180,241,210
-Entei,230,235,176
-Suicune,200,180,235
-Larvitar,100,115,93
-Pupitar,140,155,133
-Tyranitar,200,251,212
-Lugia,212,193,323
-Ho-Oh,212,263,301
-Celebi,200,210,210
+Bulbasaur,118,111,128,grass,poison
+Ivysaur,151,143,155,grass,poison
+Venusaur,198,189,190,grass,poison
+Charmander,116,93,118,fire,
+Charmeleon,158,126,151,fire,
+Charizard,223,173,186,fire,flying
+Squirtle,94,121,127,water,
+Wartortle,126,155,153,water,
+Blastoise,171,207,188,water,
+Caterpie,55,55,128,bug,
+Metapod,45,80,137,bug,
+Butterfree,167,137,155,bug,flying
+Weedle,63,50,120,bug,poison
+Kakuna,46,75,128,bug,poison
+Beedrill,169,130,163,bug,poison
+Pidgey,85,73,120,normal,flying
+Pidgeotto,117,105,160,normal,flying
+Pidgeot,166,154,195,normal,flying
+Rattata,103,70,102,normal,
+Raticate,161,139,146,normal,
+Spearow,112,60,120,normal,flying
+Fearow,182,133,163,normal,flying
+Ekans,110,97,111,poison,
+Arbok,167,153,155,poison,
+Pikachu,112,96,111,electric,
+Raichu,193,151,155,electric,
+Sandshrew,126,120,137,ground,
+Sandslash,182,175,181,ground,
+Nidoran F,86,89,146,poison,
+Nidorina,117,120,172,poison,
+Nidoqueen,180,173,207,poison,ground
+Nidoran M,105,76,130,poison,
+Nidorino,137,111,156,poison,
+Nidoking,204,156,191,poison,ground
+Clefairy,107,108,172,fairy,
+Clefable,178,162,216,fairy,
+Vulpix,96,109,116,fire,
+Ninetales,169,190,177,fire,
+Jigglypuff,80,41,251,normal,fairy
+Wigglytuff,156,90,295,normal,fairy
+Zubat,83,73,120,poison,flying
+Golbat,161,150,181,poison,flying
+Oddish,131,112,128,grass,poison
+Gloom,153,136,155,grass,poison
+Vileplume,202,167,181,grass,poison
+Paras,121,99,111,bug,grass
+Parasect,165,146,155,bug,grass
+Venonat,100,100,155,bug,poison
+Venomoth,179,143,172,bug,poison
+Diglett,109,78,67,ground,
+Dugtrio,167,134,111,ground,
+Meowth,92,78,120,normal,
+Persian,150,136,163,normal,
+Psyduck,122,95,137,water,
+Golduck,191,162,190,water,
+Mankey,148,82,120,fighting,
+Primeape,207,138,163,fighting,
+Growlithe,136,93,146,fire,
+Arcanine,227,166,207,fire,
+Poliwag,101,82,120,water,
+Poliwhirl,130,123,163,water,
+Poliwrath,182,184,207,water,fighting
+Abra,195,82,93,psychic,
+Kadabra,232,117,120,psychic,
+Alakazam,271,167,146,psychic,
+Machop,137,82,172,fighting,
+Machoke,177,125,190,fighting,
+Machamp,234,159,207,fighting,
+Bellsprout,139,61,137,grass,poison
+Weepinbell,172,92,163,grass,poison
+Victreebel,207,135,190,grass,poison
+Tentacool,97,149,120,water,poison
+Tentacruel,166,209,190,water,poison
+Geodude,132,132,120,rock,ground
+Graveler,164,164,146,rock,ground
+Golem,211,198,190,rock,ground
+Ponyta,170,127,137,fire,
+Rapidash,207,162,163,fire,
+Slowpoke,109,98,207,water,psychic
+Slowbro,177,180,216,water,psychic
+Magnemite,165,121,93,electric,steel
+Magneton,223,169,137,electric,steel
+Farfetchd,124,115,141,normal,flying
+Doduo,158,83,111,normal,flying
+Dodrio,218,140,155,normal,flying
+Seel,85,121,163,water,
+Dewgong,139,177,207,water,ice
+Grimer,135,90,190,poison,
+Muk,190,172,233,poison,
+Shellder,116,134,102,water,
+Cloyster,186,256,137,water,ice
+Gastly,186,67,102,ghost,poison
+Haunter,223,107,128,ghost,poison
+Gengar,261,149,155,ghost,poison
+Onix,85,232,111,rock,ground
+Drowzee,89,136,155,psychic,
+Hypno,144,193,198,psychic,
+Krabby,181,124,102,water,
+Kingler,240,181,146,water,
+Voltorb,109,111,120,electric,
+Electrode,173,173,155,electric,
+Exeggcute,107,125,155,grass,psychic
+Exeggutor,233,149,216,grass,psychic
+Cubone,90,144,137,ground,
+Marowak,144,186,155,ground,
+Hitmonlee,224,181,137,fighting,
+Hitmonchan,193,197,137,fighting,
+Lickitung,108,137,207,normal,
+Koffing,119,141,120,poison,
+Weezing,174,197,163,poison,
+Rhyhorn,140,127,190,ground,rock
+Rhydon,222,171,233,ground,rock
+Chansey,60,128,487,normal,
+Tangela,183,169,163,grass,
+Kangaskhan,181,165,233,normal,
+Horsea,129,103,102,water,
+Seadra,187,156,146,water,
+Goldeen,123,110,128,water,
+Seaking,175,147,190,water,
+Staryu,137,112,102,water,
+Starmie,210,184,155,water,psychic
+Mr Mime,192,205,120,psychic,fairy
+Scyther,218,170,172,bug,flying
+Jynx,223,151,163,ice,psychic
+Electabuzz,198,158,163,electric,
+Magmar,206,154,163,fire,
+Pinsir,238,182,163,bug,
+Tauros,198,183,181,normal,
+Magikarp,29,85,85,water,
+Gyarados,237,186,216,water,flying
+Lapras,165,174,277,water,ice
+Ditto,91,91,134,normal,
+Eevee,104,114,146,normal,
+Vaporeon,205,161,277,water,
+Jolteon,232,182,163,electric,
+Flareon,246,179,163,fire,
+Porygon,153,136,163,normal,
+Omanyte,155,153,111,rock,water
+Omastar,207,201,172,rock,water
+Kabuto,148,140,102,rock,water
+Kabutops,220,186,155,rock,water
+Aerodactyl,221,159,190,rock,flying
+Snorlax,190,169,330,normal,
+Articuno,192,236,207,ice,flying
+Zapdos,253,185,207,electric,flying
+Moltres,251,181,207,fire,flying
+Dratini,119,91,121,dragon,
+Dragonair,163,135,156,dragon,
+Dragonite,263,198,209,dragon,flying
+Mewtwo,300,182,214,psychic,
+Armored Mewtwo,182,278,214,psychic,
+Mew,210,210,225,psychic,
+Chikorita,92,122,128,grass,
+Bayleef,122,155,155,grass,
+Meganium,168,202,190,grass,
+Cyndaquil,116,93,118,fire,
+Quilava,158,126,151,fire,
+Typhlosion,223,173,186,fire,
+Totodile,117,109,137,water,
+Croconaw,150,142,163,water,
+Feraligatr,205,188,198,water,
+Sentret,79,73,111,normal,
+Furret,148,125,198,normal,
+Hoothoot,67,88,155,normal,flying
+Noctowl,145,156,225,normal,flying
+Ledyba,72,118,120,bug,flying
+Ledian,107,179,146,bug,flying
+Spinarak,105,73,120,bug,poison
+Ariados,161,124,172,bug,poison
+Crobat,194,178,198,poison,flying
+Chinchou,106,97,181,water,electric
+Lanturn,146,137,268,water,electric
+Pichu,77,53,85,electric,
+Cleffa,75,79,137,fairy,
+Igglybuff,69,32,207,normal,fairy
+Togepi,67,116,111,fairy,
+Togetic,139,181,146,fairy,flying
+Natu,134,89,120,psychic,flying
+Xatu,192,146,163,psychic,flying
+Mareep,114,79,146,electric,
+Flaaffy,145,109,172,electric,
+Ampharos,211,169,207,electric,
+Bellossom,169,186,181,grass,
+Marill,37,93,172,water,fairy
+Azumarill,112,152,225,water,fairy
+Sudowoodo,167,176,172,rock,
+Politoed,174,179,207,water,
+Hoppip,67,94,111,grass,flying
+Skiploom,91,120,146,grass,flying
+Jumpluff,118,183,181,grass,flying
+Aipom,136,112,146,normal,
+Sunkern,55,55,102,grass,
+Sunflora,185,135,181,grass,
+Yanma,154,94,163,bug,flying
+Wooper,75,66,146,water,ground
+Quagsire,152,143,216,water,ground
+Espeon,261,175,163,psychic,
+Umbreon,126,240,216,dark,
+Murkrow,175,87,155,dark,flying
+Slowking,177,180,216,water,psychic
+Misdreavus,167,154,155,ghost,
+Unown,136,91,134,psychic,
+Wobbuffet,60,106,382,psychic,
+Girafarig,182,133,172,normal,psychic
+Pineco,108,122,137,bug,
+Forretress,161,205,181,bug,steel
+Dunsparce,131,128,225,normal,
+Gligar,143,184,163,ground,flying
+Steelix,148,272,181,steel,ground
+Snubbull,137,85,155,fairy,
+Granbull,212,131,207,fairy,
+Qwilfish,184,138,163,water,poison
+Scizor,236,181,172,bug,steel
+Shuckle,17,396,85,bug,rock
+Heracross,234,179,190,bug,fighting
+Sneasel,189,146,146,dark,ice
+Teddiursa,142,93,155,normal,
+Ursaring,236,144,207,normal,
+Slugma,118,71,120,fire,
+Magcargo,139,191,137,fire,rock
+Swinub,90,69,137,ice,ground
+Piloswine,181,138,225,ice,ground
+Corsola,118,156,146,water,rock
+Remoraid,127,69,111,water,
+Octillery,197,141,181,water,
+Delibird,128,90,128,ice,flying
+Mantine,148,226,163,water,flying
+Skarmory,148,226,163,steel,flying
+Houndour,152,83,128,dark,fire
+Houndoom,224,144,181,dark,fire
+Kingdra,194,194,181,water,dragon
+Phanpy,107,98,207,ground,
+Donphan,214,185,207,ground,
+Porygon2,198,180,198,normal,
+Stantler,192,131,177,normal,
+Smeargle,40,83,146,normal,
+Tyrogue,64,64,111,fighting,
+Hitmontop,173,207,137,fighting,
+Smoochum,153,91,128,ice,psychic
+Elekid,135,101,128,electric,
+Magby,151,99,128,fire,
+Miltank,157,193,216,normal,
+Blissey,129,169,496,normal,
+Raikou,241,195,207,electric,
+Entei,235,171,251,fire,
+Suicune,180,235,225,water,
+Larvitar,115,93,137,rock,ground
+Pupitar,155,133,172,rock,ground
+Tyranitar,251,207,225,rock,dark
+Lugia,193,310,235,psychic,flying
+Ho Oh,239,244,214,fire,flying
+Celebi,210,210,225,psychic,grass
+Treecko,124,94,120,grass,
+Grovyle,172,120,137,grass,
+Sceptile,223,169,172,grass,
+Torchic,130,87,128,fire,
+Combusken,163,115,155,fire,fighting
+Blaziken,240,141,190,fire,fighting
+Mudkip,126,93,137,water,
+Marshtomp,156,133,172,water,ground
+Swampert,208,175,225,water,ground
+Poochyena,96,61,111,dark,
+Mightyena,171,132,172,dark,
+Zigzagoon,58,80,116,normal,
+Linoone,142,128,186,normal,
+Wurmple,75,59,128,bug,
+Silcoon,60,77,137,bug,
+Beautifly,189,98,155,bug,flying
+Cascoon,60,77,137,bug,
+Dustox,98,162,155,bug,poison
+Lotad,71,77,120,water,grass
+Lombre,112,119,155,water,grass
+Ludicolo,173,176,190,water,grass
+Seedot,71,77,120,grass,
+Nuzleaf,134,78,172,grass,dark
+Shiftry,200,121,207,grass,dark
+Taillow,106,61,120,normal,flying
+Swellow,185,124,155,normal,flying
+Wingull,106,61,120,water,flying
+Pelipper,175,174,155,water,flying
+Ralts,79,59,99,psychic,fairy
+Kirlia,117,90,116,psychic,fairy
+Gardevoir,237,195,169,psychic,fairy
+Surskit,93,87,120,bug,water
+Masquerain,192,150,172,bug,flying
+Shroomish,74,110,155,grass,
+Breloom,241,144,155,grass,fighting
+Slakoth,104,92,155,normal,
+Vigoroth,159,145,190,normal,
+Slaking,290,166,284,normal,
+Nincada,80,126,104,bug,ground
+Ninjask,199,112,156,bug,flying
+Shedinja,153,73,1,bug,ghost
+Whismur,92,42,162,normal,
+Loudred,134,81,197,normal,
+Exploud,179,137,232,normal,
+Makuhita,99,54,176,fighting,
+Hariyama,209,114,302,fighting,
+Azurill,36,71,137,normal,fairy
+Nosepass,82,215,102,rock,
+Skitty,84,79,137,normal,
+Delcatty,132,127,172,normal,
+Sableye,141,136,137,dark,ghost
+Mawile,155,141,137,steel,fairy
+Aron,121,141,137,steel,rock
+Lairon,158,198,155,steel,rock
+Aggron,198,257,172,steel,rock
+Meditite,78,107,102,fighting,psychic
+Medicham,121,152,155,fighting,psychic
+Electrike,123,78,120,electric,
+Manectric,215,127,172,electric,
+Plusle,167,129,155,electric,
+Minun,147,150,155,electric,
+Volbeat,143,166,163,bug,
+Illumise,143,166,163,bug,
+Roselia,186,131,137,grass,poison
+Gulpin,80,99,172,poison,
+Swalot,140,159,225,poison,
+Carvanha,171,39,128,water,dark
+Sharpedo,243,83,172,water,dark
+Wailmer,136,68,277,water,
+Wailord,175,87,347,water,
+Numel,119,79,155,fire,ground
+Camerupt,194,136,172,fire,ground
+Torkoal,151,203,172,fire,
+Spoink,125,122,155,psychic,
+Grumpig,171,188,190,psychic,
+Spinda,116,116,155,normal,
+Trapinch,162,78,128,ground,
+Vibrava,134,99,137,ground,dragon
+Flygon,205,168,190,ground,dragon
+Cacnea,156,74,137,grass,
+Cacturne,221,115,172,grass,dark
+Swablu,76,132,128,normal,flying
+Altaria,141,201,181,dragon,flying
+Zangoose,222,124,177,normal,
+Seviper,196,118,177,poison,
+Lunatone,178,153,207,rock,psychic
+Solrock,178,153,207,rock,psychic
+Barboach,93,82,137,water,ground
+Whiscash,151,141,242,water,ground
+Corphish,141,99,125,water,
+Crawdaunt,224,142,160,water,dark
+Baltoy,77,124,120,ground,psychic
+Claydol,140,229,155,ground,psychic
+Lileep,105,150,165,rock,grass
+Cradily,152,194,200,rock,grass
+Anorith,176,100,128,rock,bug
+Armaldo,222,174,181,rock,bug
+Feebas,29,85,85,water,
+Milotic,192,219,216,water,
+Castform,139,139,172,normal,
+Kecleon,161,189,155,normal,
+Shuppet,138,65,127,ghost,
+Banette,218,126,162,ghost,
+Duskull,70,162,85,ghost,
+Dusclops,124,234,120,ghost,
+Tropius,136,163,223,grass,flying
+Chimecho,175,170,181,psychic,
+Absol,246,120,163,dark,
+Wynaut,41,86,216,psychic,
+Snorunt,95,95,137,ice,
+Glalie,162,162,190,ice,
+Spheal,95,90,172,ice,water
+Sealeo,137,132,207,ice,water
+Walrein,182,176,242,ice,water
+Clamperl,133,135,111,water,
+Huntail,197,179,146,water,
+Gorebyss,211,179,146,water,
+Relicanth,162,203,225,water,rock
+Luvdisc,81,128,125,water,
+Bagon,134,93,128,dragon,
+Shelgon,172,155,163,dragon,
+Salamence,277,168,216,dragon,flying
+Beldum,96,132,120,steel,psychic
+Metang,138,176,155,steel,psychic
+Metagross,257,228,190,steel,psychic
+Regirock,179,309,190,rock,
+Regice,179,309,190,ice,
+Registeel,143,285,190,steel,
+Latias,228,246,190,dragon,psychic
+Latios,268,212,190,dragon,psychic
+Kyogre,270,228,205,water,
+Groudon,270,228,205,ground,
+Rayquaza,284,170,213,dragon,flying
+Jirachi,210,210,225,steel,psychic
+Deoxys Normal,345,115,137,psychic,
+Deoxys Attack,414,46,137,psychic,
+Deoxys Defense,144,330,137,psychic,
+Deoxys Speed,230,218,137,psychic,
+Turtwig,119,110,146,grass,
+Grotle,157,143,181,grass,
+Torterra,202,188,216,grass,ground
+Chimchar,113,86,127,fire,
+Monferno,158,105,162,fire,fighting
+Infernape,222,151,183,fire,fighting
+Piplup,112,102,142,water,
+Prinplup,150,139,162,water,
+Empoleon,210,186,197,water,steel
+Starly,101,58,120,normal,flying
+Staravia,142,94,146,normal,flying
+Staraptor,234,140,198,normal,flying
+Bidoof,80,73,153,normal,
+Bibarel,162,119,188,normal,water
+Kricketot,45,74,114,bug,
+Kricketune,160,100,184,bug,
+Shinx,117,64,128,electric,
+Luxio,159,95,155,electric,
+Luxray,232,156,190,electric,
+Budew,91,109,120,grass,poison
+Roserade,243,185,155,grass,poison
+Cranidos,218,71,167,rock,
+Rampardos,295,109,219,rock,
+Shieldon,76,195,102,rock,steel
+Bastiodon,94,286,155,rock,steel
+Burmy Plant,53,83,120,bug,
+Burmy Sandy,53,83,120,bug,
+Burmy Trash,53,83,120,bug,
+Wormadam Plant,141,180,155,bug,grass
+Wormadam Sandy,141,180,155,bug,grass
+Wormadam Trash,127,175,155,bug,grass
+Mothim,185,98,172,bug,flying
+Combee,59,83,102,bug,flying
+Vespiquen,149,190,172,bug,flying
+Pachirisu,94,172,155,electric,
+Buizel,132,67,146,water,
+Floatzel,221,114,198,water,
+Cherubi,108,92,128,grass,
+Cherrim,170,153,172,grass,
+Shellos,103,105,183,water,
+Gastrodon,169,143,244,water,ground
+Ambipom,205,143,181,normal,
+Drifloon,117,80,207,ghost,flying
+Drifblim,180,102,312,ghost,flying
+Buneary,130,105,146,normal,
+Lopunny,156,194,163,normal,
+Mismagius,211,187,155,ghost,
+Honchkrow,243,103,225,dark,flying
+Glameow,109,82,135,normal,
+Purugly,172,133,174,normal,
+Chingling,114,94,128,psychic,
+Stunky,121,90,160,poison,dark
+Skuntank,184,132,230,poison,dark
+Bronzor,43,154,149,steel,psychic
+Bronzong,161,213,167,steel,psychic
+Bonsly,124,133,137,rock,
+Mime Jr,125,142,85,psychic,fairy
+Happiny,25,77,225,normal,
+Chatot,183,91,183,normal,flying
+Spiritomb,169,199,137,ghost,dark
+Gible,124,84,151,dragon,ground
+Gabite,172,125,169,dragon,ground
+Garchomp,261,193,239,dragon,ground
+Munchlax,137,117,286,normal,
+Riolu,127,78,120,fighting,
+Lucario,236,144,172,fighting,steel
+Hippopotas,124,118,169,ground,
+Hippowdon,201,191,239,ground,
+Skorupi,93,151,120,poison,bug
+Drapion,180,202,172,poison,dark
+Croagunk,116,76,134,poison,fighting
+Toxicroak,211,133,195,poison,fighting
+Carnivine,187,136,179,grass,
+Finneon,96,116,135,water,
+Lumineon,142,170,170,water,
+Mantyke,105,179,128,water,flying
+Snover,115,105,155,grass,ice
+Abomasnow,178,158,207,grass,ice
+Weavile,243,171,172,dark,ice
+Magnezone,238,205,172,electric,steel
+Lickilicky,161,181,242,normal,
+Rhyperior,241,190,251,ground,rock
+Tangrowth,207,184,225,grass,
+Electivire,249,163,181,electric,
+Magmortar,247,172,181,fire,
+Togekiss,225,217,198,fairy,flying
+Yanmega,231,156,200,bug,flying
+Leafeon,216,219,163,grass,
+Glaceon,238,205,163,ice,
+Gliscor,185,222,181,ground,flying
+Mamoswine,247,146,242,ice,ground
+Porygon Z,264,150,198,normal,
+Gallade,237,195,169,psychic,fighting
+Probopass,135,275,155,rock,steel
+Dusknoir,180,254,128,ghost,
+Froslass,171,150,172,ice,ghost
+Rotom Normal,185,159,137,electric,ghost
+Rotom Fan,204,219,137,electric,ghost
+Rotom Frost,204,219,137,electric,ghost
+Rotom Heat,204,219,137,electric,ghost
+Rotom Mow,204,219,137,electric,ghost
+Rotom Wash,204,219,137,electric,ghost
+Uxie,156,270,181,psychic,
+Mesprit,212,212,190,psychic,
+Azelf,270,151,181,psychic,
+Dialga,275,211,205,steel,dragon
+Palkia,280,215,189,water,dragon
+Heatran,251,213,209,fire,steel
+Regigigas,287,210,221,normal,
+Giratina Altered,187,225,284,ghost,dragon
+Giratina Origin,225,187,284,ghost,dragon
+Cresselia,152,258,260,psychic,
+Phione,162,162,190,water,
+Manaphy,210,210,225,water,
+Darkrai,285,198,172,dark,
+Shaymin Land,210,210,225,grass,
+Shaymin Sky,261,166,225,grass,
+Arceus,238,238,237,normal,
+Victini,210,210,225,psychic,fire
+Snivy,88,107,128,grass,
+Servine,122,152,155,grass,
+Serperior,161,204,181,grass,
+Tepig,115,85,163,fire,
+Pignite,173,106,207,fire,fighting
+Emboar,235,127,242,fire,fighting
+Oshawott,117,85,146,water,
+Dewott,159,116,181,water,
+Samurott,212,157,216,water,
+Patrat,98,73,128,normal,
+Watchog,165,139,155,normal,
+Lillipup,107,86,128,normal,
+Herdier,145,126,163,normal,
+Stoutland,206,182,198,normal,
+Purrloin,98,73,121,dark,
+Liepard,187,106,162,dark,
+Pansage,104,94,137,grass,
+Simisage,206,133,181,grass,
+Pansear,104,94,137,fire,
+Simisear,206,133,181,fire,
+Panpour,104,94,137,water,
+Simipour,206,133,181,water,
+Munna,111,92,183,psychic,
+Musharna,183,166,253,psychic,
+Pidove,98,80,137,normal,flying
+Tranquill,144,107,158,normal,flying
+Unfezant,226,146,190,normal,flying
+Blitzle,118,64,128,electric,
+Zebstrika,211,136,181,electric,
+Roggenrola,121,110,146,rock,
+Boldore,174,143,172,rock,
+Gigalith,226,201,198,rock,
+Woobat,107,85,163,psychic,flying
+Swoobat,161,119,167,psychic,flying
+Drilbur,154,85,155,ground,
+Excadrill,255,129,242,ground,steel
+Audino,114,163,230,normal,
+Timburr,134,87,181,fighting,
+Gurdurr,180,134,198,fighting,
+Conkeldurr,243,158,233,fighting,
+Tympole,98,78,137,water,
+Palpitoad,128,109,181,water,ground
+Seismitoad,188,150,233,water,ground
+Throh,172,160,260,fighting,
+Sawk,231,153,181,fighting,
+Sewaddle,96,124,128,bug,grass
+Swadloon,115,162,146,bug,grass
+Leavanny,205,165,181,bug,grass
+Venipede,83,99,102,bug,poison
+Whirlipede,100,173,120,bug,poison
+Scolipede,203,175,155,bug,poison
+Cottonee,71,111,120,grass,fairy
+Whimsicott,164,176,155,grass,fairy
+Petilil,119,91,128,grass,
+Lilligant,214,155,172,grass,
+Basculin,189,129,172,water,
+Sandile,132,69,137,ground,dark
+Krokorok,155,90,155,ground,dark
+Krookodile,229,158,216,ground,dark
+Darumaka,153,86,172,fire,
+Darmanitan Standard,263,114,233,fire,
+Darmanitan Zen,243,202,233,fire,
+Maractus,201,130,181,grass,
+Dwebble,118,128,137,bug,rock
+Crustle,188,200,172,bug,rock
+Scraggy,132,132,137,dark,fighting
+Scrafty,163,222,163,dark,fighting
+Sigilyph,204,167,176,psychic,flying
+Yamask,95,141,116,ghost,
+Cofagrigus,163,237,151,ghost,
+Tirtouga,134,146,144,water,rock
+Carracosta,192,197,179,water,rock
+Archen,213,89,146,rock,flying
+Archeops,292,139,181,rock,flying
+Trubbish,96,122,137,poison,
+Garbodor,181,164,190,poison,
+Zorua,153,78,120,dark,
+Zoroark,250,127,155,dark,
+Minccino,98,80,146,normal,
+Cinccino,198,130,181,normal,
+Gothita,98,112,128,psychic,
+Gothorita,137,153,155,psychic,
+Gothitelle,176,205,172,psychic,
+Solosis,170,83,128,psychic,
+Duosion,208,103,163,psychic,
+Reuniclus,214,148,242,psychic,
+Ducklett,84,96,158,water,flying
+Swanna,182,132,181,water,flying
+Vanillite,118,106,113,ice,
+Vanillish,151,138,139,ice,
+Vanilluxe,218,184,174,ice,
+Deerling,115,100,155,normal,grass
+Sawsbuck,198,146,190,normal,grass
+Emolga,158,127,146,electric,flying
+Karrablast,137,87,137,bug,
+Escavalier,223,187,172,bug,steel
+Foongus,97,91,170,grass,poison
+Amoonguss,155,139,249,grass,poison
+Frillish,115,134,146,water,ghost
+Jellicent,159,178,225,water,ghost
+Alomomola,138,131,338,water,
+Joltik,110,98,137,bug,electric
+Galvantula,201,128,172,bug,electric
+Ferroseed,82,155,127,grass,steel
+Ferrothorn,158,223,179,grass,steel
+Klink,98,121,120,steel,
+Klang,150,174,155,steel,
+Klinklang,199,214,155,steel,
+Tynamo,105,78,111,electric,
+Eelektrik,156,130,163,electric,
+Eelektross,217,152,198,electric,
+Elgyem,148,100,146,psychic,
+Beheeyem,221,163,181,psychic,
+Litwick,108,98,137,ghost,fire
+Lampent,169,115,155,ghost,fire
+Chandelure,271,182,155,ghost,fire
+Axew,154,101,130,dragon,
+Fraxure,212,123,165,dragon,
+Haxorus,284,172,183,dragon,
+Cubchoo,128,74,146,ice,
+Beartic,233,152,216,ice,
+Cryogonal,190,218,190,ice,
+Shelmet,72,140,137,bug,
+Accelgor,220,120,190,bug,
+Stunfisk,144,171,240,ground,electric
+Mienfoo,160,98,128,fighting,
+Mienshao,258,127,163,fighting,
+Druddigon,213,170,184,dragon,
+Golett,127,92,153,ground,ghost
+Golurk,222,154,205,ground,ghost
+Pawniard,154,114,128,dark,steel
+Bisharp,232,176,163,dark,steel
+Bouffalant,195,182,216,normal,
+Rufflet,150,97,172,normal,flying
+Braviary,232,152,225,normal,flying
+Vullaby,105,139,172,dark,flying
+Mandibuzz,129,205,242,dark,flying
+Heatmor,204,129,198,fire,
+Durant,217,188,151,bug,steel
+Deino,116,93,141,dark,dragon
+Zweilous,159,135,176,dark,dragon
+Hydreigon,256,188,211,dark,dragon
+Larvesta,156,107,146,bug,fire
+Volcarona,264,189,198,bug,fire
+Cobalion,192,229,209,steel,fighting
+Terrakion,260,192,209,rock,fighting
+Virizion,192,229,209,grass,fighting
+Tornadus Incarnate,266,164,188,flying,
+Tornadus Therian,238,189,188,flying,
+Thundurus Incarnate,266,164,188,electric,flying
+Thundurus Therian,295,161,188,electric,flying
+Reshiram,275,211,205,dragon,fire
+Zekrom,275,211,205,dragon,electric
+Landorus Incarnate,261,182,205,ground,flying
+Landorus Therian,289,179,205,ground,flying
+Kyurem Normal,246,170,245,dragon,ice
+Kyurem Black,310,183,245,dragon,ice
+Kyurem White,310,183,245,dragon,ice
+Keldeo Ordinary,260,192,209,water,fighting
+Keldeo Resolute,260,192,209,water,fighting
+Meloetta Pirouette,269,188,225,normal,psychic
+Meloetta Aria,250,225,225,normal,psychic
+Genesect,252,199,174,bug,steel
+Mega Venusaur,241,246,190,grass,poison
+Mega Charizard X,273,213,186,fire,dragon
+Mega Charizard Y,290,193,169,fire,flying
+Mega Blastoise,264,237,188,water,
+Mega Beedrill,303,148,163,bug,poison
+Mega Pidgeot,280,175,195,normal,flying
+Mega Alakazam,334,188,133,psychic,
+Mega Slowbro,224,259,216,water,psychic
+Mega Gengar,317,181,141,ghost,poison
+Mega Kangaskhan,246,210,233,normal,
+Mega Pinsir,278,210,148,bug,flying
+Mega Gyarados,266,225,197,water,dark
+Mega Aerodactyl,266,192,173,rock,flying
+Mega Mewtwo X,375,202,214,psychic,fighting
+Mega Mewtwo Y,388,209,214,psychic,
+Mega Ampharos,268,185,188,electric,dragon
+Mega Steelix,212,327,181,steel,ground
+Mega Scizor,254,228,157,bug,steel
+Mega Heracross,304,203,173,bug,fighting
+Mega Houndoom,289,194,181,dark,fire
+Mega Tyranitar,281,251,205,rock,dark
+Mega Sceptile,292,169,157,grass,dragon
+Mega Blaziken,299,153,173,fire,fighting
+Mega Swampert,258,198,205,water,ground
+Mega Gardevoir,296,208,154,psychic,fairy
+Mega Sableye,151,216,137,dark,ghost
+Mega Mawile,188,217,137,steel,fairy
+Mega Aggron,225,301,157,steel,
+Mega Medicham,205,179,155,fighting,psychic
+Mega Manectric,286,179,172,electric,
+Mega Sharpedo,289,144,172,water,dark
+Mega Camerupt,253,183,172,fire,ground
+Mega Altaria,222,218,181,dragon,fairy
+Mega Banette,312,160,162,ghost,
+Mega Absol,314,130,163,dark,
+Mega Glalie,252,168,190,ice,
+Mega Salamence,282,228,197,dragon,flying
+Mega Metagross,273,263,173,steel,psychic
+Mega Latias,263,271,173,dragon,psychic
+Mega Latios,305,219,173,dragon,psychic
+Primal Kyogre,331,251,205,water,
+Primal Groudon,331,251,205,ground,fire
+Mega Rayquaza,354,197,212,dragon,flying
+Mega Lopunny,282,214,163,normal,fighting
+Mega Garchomp,309,202,217,dragon,ground
+Mega Lucario,310,175,172,fighting,steel
+Mega Abomasnow,240,191,207,grass,ice
+Mega Gallade,297,209,154,psychic,fighting
+Mega Audino,147,239,230,normal,fairy
+Chespin,110,106,148,grass,
+Quilladin,146,156,156,grass,
+Chesnaught,201,204,204,grass,fighting
+Fennekin,116,102,120,fire,
+Braixen,171,130,153,fire,
+Delphox,230,189,181,fire,psychic
+Froakie,122,84,121,water,
+Frogadier,168,114,144,water,
+Greninja,223,152,176,water,dark
+Bunnelby,68,72,116,normal,
+Diggersby,112,155,198,normal,ground
+Fletchling,95,80,128,normal,flying
+Fletchinder,145,110,158,fire,flying
+Talonflame,176,155,186,fire,flying
+Scatterbug,63,63,116,bug,
+Spewpa,48,89,128,bug,
+Vivillon,176,103,190,bug,flying
+Litleo,139,112,158,fire,normal
+Pyroar,221,149,200,fire,normal
+Flabébé,108,120,127,fairy,
+Floette,136,151,144,fairy,
+Florges,212,244,186,fairy,
+Skiddo,123,102,165,grass,
+Gogoat,196,146,265,grass,
+Pancham,145,107,167,fighting,
+Pangoro,226,146,216,fighting,dark
+Furfrou,164,167,181,normal,
+Espurr,120,114,158,psychic,
+Meowstic,166,167,179,psychic,
+Honedge,135,139,128,steel,ghost
+Doublade,188,206,153,steel,ghost
+Aegislash Blade,291,97,155,steel,ghost
+Aegislash Shield,97,291,155,steel,ghost
+Spritzee,110,113,186,fairy,
+Aromatisse,173,150,226,fairy,
+Swirlix,109,119,158,fairy,
+Slurpuff,168,163,193,fairy,
+Inkay,98,95,142,dark,psychic
+Malamar,177,165,200,dark,psychic
+Binacle,96,120,123,rock,water
+Barbaracle,194,205,176,rock,water
+Skrelp,109,109,137,poison,water
+Dragalge,177,207,163,poison,dragon
+Clauncher,108,117,137,water,
+Clawitzer,221,171,174,water,
+Helioptile,115,78,127,electric,normal
+Heliolisk,219,168,158,electric,normal
+Tyrunt,158,123,151,rock,dragon
+Tyrantrum,227,191,193,rock,dragon
+Amaura,124,109,184,rock,ice
+Aurorus,186,163,265,rock,ice
+Sylveon,203,205,216,fairy,
+Hawlucha,195,153,186,fighting,flying
+Dedenne,164,134,167,electric,fairy
+Carbink,95,285,137,rock,fairy
+Goomy,101,112,128,dragon,
+Sliggoo,159,176,169,dragon,
+Goodra,220,242,207,dragon,
+Klefki,160,179,149,steel,fairy
+Phantump,125,103,125,ghost,grass
+Trevenant,201,154,198,ghost,grass
+Pumpkaboo Average,121,123,135,ghost,grass
+Gourgeist Average,175,213,163,ghost,grass
+Bergmite,117,120,146,ice,
+Avalugg,196,240,216,ice,
+Noibat,83,73,120,flying,dragon
+Noivern,205,175,198,flying,dragon
+Xerneas,250,185,246,fairy,
+Yveltal,250,185,246,dark,flying
+Zygarde 10%,205,173,144,dragon,ground
+Diancie,190,285,137,rock,fairy
+Hoopa Confined,261,187,173,psychic,ghost
+Hoopa Unbound,311,191,173,psychic,ghost
+Volcanion,252,216,190,fire,water
+Rowlet,102,99,169,grass,flying
+Dartrix,142,139,186,grass,flying
+Decidueye,210,179,186,grass,ghost
+Litten,128,79,128,fire,
+Torracat,174,103,163,fire,
+Incineroar,214,175,216,fire,dark
+Popplio,120,103,137,water,
+Brionne,168,145,155,water,
+Primarina,232,195,190,water,fairy
+Pikipek,136,59,111,normal,flying
+Trumbeak,159,100,146,normal,flying
+Toucannon,222,146,190,normal,flying
+Alolan Rattata,103,70,102,dark,normal
+Alolan Raticate,135,154,181,dark,normal
+Alolan Raichu,201,154,155,electric,psychic
+Alolan Sandshrew,125,129,137,ice,steel
+Alolan Sandslash,177,195,181,ice,steel
+Alolan Vulpix,96,109,116,ice,
+Alolan Ninetales,170,193,177,ice,fairy
+Alolan Diglett,108,81,67,ground,steel
+Alolan Dugtrio,201,142,111,ground,steel
+Alolan Meowth,99,78,120,dark,
+Alolan Persian,158,136,163,dark,
+Alolan Geodude,132,132,120,rock,electric
+Alolan Graveler,164,164,146,rock,electric
+Alolan Golem,211,198,190,rock,electric
+Alolan Grimer,135,90,190,poison,dark
+Alolan Muk,190,172,233,poison,dark
+Alolan Exeggutor,230,153,216,grass,dragon
+Alolan Marowak,144,186,155,fire,ghost
+Yungoos,122,56,134,normal,
+Gumshoos,194,113,204,normal,
+Grubbin,115,85,132,bug,
+Charjabug,145,161,149,bug,electric
+Vikavolt,254,158,184,bug,electric
+Crabrawler,150,104,132,fighting,
+Crabominable,231,138,219,fighting,ice
+Oricorio,196,145,181,fire,flying
+Cutiefly,110,81,120,bug,fairy
+Ribombee,198,146,155,bug,fairy
+Rockruff,117,78,128,rock,
+Lycanroc Dusk,234,139,181,rock,
+Wishiwashi Solo,46,43,128,water,
+Mareanie,98,110,137,poison,water
+Toxapex,114,273,137,poison,water
+Mudbray,175,121,172,ground,
+Mudsdale,214,174,225,ground,
+Dewpider,72,117,116,water,bug
+Araquanid,126,219,169,water,bug
+Fomantis,100,64,120,grass,
+Lurantis,192,169,172,grass,
+Morelull,108,119,120,grass,fairy
+Shiinotic,154,168,155,grass,fairy
+Salandit,136,80,134,poison,fire
+Salazzle,228,130,169,poison,fire
+Stufful,136,95,172,normal,fighting
+Bewear,226,141,260,normal,fighting
+Bounsweet,55,69,123,grass,
+Steenee,78,94,141,grass,
+Tsareena,222,195,176,grass,
+Comfey,165,215,139,fairy,
+Oranguru,168,192,207,normal,psychic
+Passimian,222,160,225,fighting,
+Wimpod,67,74,93,bug,water
+Golisopod,218,226,181,bug,water
+Sandygast,120,118,146,ghost,ground
+Palossand,178,178,198,ghost,ground
+Pyukumuku,97,224,146,water,
+Type: Null,184,184,216,normal,
+Silvally,198,198,216,normal,
+Minior Core,218,131,155,rock,flying
+Komala,216,165,163,normal,
+Turtonator,165,215,155,fire,dragon
+Togedemaru,190,145,163,electric,steel
+Mimikyu,177,199,146,ghost,fairy
+Bruxish,208,145,169,water,psychic
+Drampa,231,164,186,normal,dragon
+Dhelmise,233,179,172,ghost,grass
+Jangmo-O,102,108,128,dragon,
+Hakamo-O,145,162,146,dragon,fighting
+Kommo-O,222,240,181,dragon,fighting
+Tapu Koko,250,181,172,electric,fairy
+Tapu Lele,259,208,172,psychic,fairy
+Tapu Bulu,249,215,172,grass,fairy
+Tapu Fini,189,254,172,water,fairy
+Cosmog,54,57,125,psychic,
+Cosmoem,54,242,125,psychic,
+Solgaleo,255,191,263,psychic,steel
+Lunala,255,191,263,psychic,ghost
+Nihilego,249,210,240,rock,poison
+Buzzwole,236,196,216,bug,fighting
+Pheromosa,316,85,174,bug,fighting
+Xurkitree,330,144,195,electric,
+Celesteela,207,199,219,steel,flying
+Kartana,323,182,139,grass,steel
+Guzzlord,188,99,440,dark,dragon
+Necrozma,251,195,219,psychic,
+Magearna,246,225,190,steel,fairy
+Marshadow,265,190,207,fighting,ghost
+Poipole,145,133,167,poison,
+Naganadel,263,159,177,poison,dragon
+Stakataka,213,297,156,rock,steel
+Blacephalon,315,147,142,fire,ghost
+Zeraora,252,177,204,electric,
+Meltan,118,99,130,steel,
+Melmetal,226,190,264,steel,
